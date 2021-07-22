@@ -71,7 +71,7 @@ img{
 		display: inline;
 		width: fit-content;
 		height: fit-content;
-		border-style: dotted;
+		
 	}
 	.projects{
 		transition-duration: 2s;
@@ -97,7 +97,7 @@ img{
 	#aboutme #duis{
 		width: fit-content;
 		height: fit-content;
-		border-style: dotted;
+		
 		position: absolute;
 		left: 40%;
 		top: 700px;
@@ -107,7 +107,7 @@ img{
 	.python{
 		width: 300px;
 		height: fit-content;
-		border-style: dotted;
+		
 		position: relative;
 		left: 20%;
 	}
@@ -115,7 +115,7 @@ img{
 	.django{
 		width: 300px;
 		height: fit-content;
-		border-style: dotted;
+		
 		position: absolute;
 		left: 60%;
 		top: 1816px;
@@ -123,7 +123,7 @@ img{
 	#aboutme{
 		width: 100%;
 		height: 800px;
-		border-style: dotted;
+		
 		background-color: #6699FF;
 	}
 	#mine{
