@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;}
+#whole{
+background-color:cyan;
+font-family: 'Roboto', sans-serif;
+
+
+}
+img{
+	height: 230px;
+	padding: 20px;
+}
+.mypic{
+	
+	position: relative;
+	left: 30%;
+	
+}
+
+
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		width: 100%;
+
+		background-color: lightskyblue;
+	}
+	li{
+		float: left;
+	}
+
+	li a{
+		display: bock;
+		width: 60px;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #6699FF;
+		color: white;
+	}
+	li a{
+		display: block;
+		
+		background-color: lightskyblue;
+	}
+	a{
+		padding: 8px;
+	}
+	.intro{
+		position: relative;
+		left: 30%;
+		width: 30%;
+		
+		background-color: white;
+		
+	}
+	.mineimage{
+		position: absolute;
+		left: 60%;
+		top: 5%;
+		animation: yes;
+		animation-duration: 4s;
+	}
+	.tutorials{
+		display: inline;
+		width: fit-content;
+		height: fit-content;
+		border-style: dotted;
+	}
+	.projects{
+		transition-duration: 2s;
+	transition-property: background,transform;
+	}
+	
+	
+
+
+	#first{
+		width: 100%;
+		height: 600px;
+		background-color: blue;
+		background-image: url('astugate.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#first .myname{
+		position: relative;
+		left: 10%;
+		top: 35%;
+	}
+	#aboutme #duis{
+		width: fit-content;
+		height: fit-content;
+		border-style: dotted;
+		position: absolute;
+		left: 40%;
+		top: 700px;
+		border-radius: 10px;
+	}
+
+	.python{
+		width: 300px;
+		height: fit-content;
+		border-style: dotted;
+		position: relative;
+		left: 20%;
+	}
+
+	.django{
+		width: 300px;
+		height: fit-content;
+		border-style: dotted;
+		position: absolute;
+		left: 60%;
+		top: 1816px;
+	}
+	#aboutme{
+		width: 100%;
+		height: 800px;
+		border-style: dotted;
+		background-color: #6699FF;
+	}
+	#mine{
+		width: 30%;
+		height: 40%;
+		border-radius: 20%;
+	}
+
+	#projects{
+		background-color: #990099;
+	}
+	#skill{
+		background-color: #66CCFF;
+	}
+	.python:hover{
+		background-color: #66CCFF;
+		opacity: 0.5;
+	}
+
+	.django:hover{
+		background-color: #66CCFF;
+		opacity: 0.5;
+	}
