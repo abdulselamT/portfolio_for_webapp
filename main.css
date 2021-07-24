@@ -160,7 +160,10 @@ img{
 		opacity: 0.5;
 	}
 
-
+	#check{
+		width: 300px;
+		height: 200px;
+	}
 
 
 
