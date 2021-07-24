@@ -2,6 +2,7 @@
 	function colorchange(){
 		i=Number(document.getElementById("counter").innerHTML);
 		i+=1
+		document.getElementById("counter").style.display='none';
 		document.getElementById("counter").innerHTML=i
 		if (i%2==0){
 			document.getElementById("whole").style.background="#2F4F4F";
