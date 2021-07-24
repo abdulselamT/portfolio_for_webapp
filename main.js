@@ -36,5 +36,8 @@
 	images=["duis2.jpg","duis3.jpg","duis4.jpg","duis5.jpg","duisahme.jpg"];
 	document.getElementById("check").src = images[i%5];
 	i+=1;
-	document.getElementById("imgcountter").innerHTML=i;}
+	document.getElementById("imgcountter").innerHTML=i;
+	document.getElementById("imgcountter").style.display='none';
+	
+	}
 
