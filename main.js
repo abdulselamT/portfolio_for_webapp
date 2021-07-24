@@ -30,3 +30,11 @@
 		
 		
 	}
+
+	function change(){
+	i=Number(document.getElementById("imgcountter").innerHTML);
+	images=["duis2.jpg","duis3.jpg","duis4.jpg","duis5.jpg","duisahme.jpg"];
+	document.getElementById("check").src = images[i%5];
+	i+=1;
+	document.getElementById("imgcountter").innerHTML=i;}
+
