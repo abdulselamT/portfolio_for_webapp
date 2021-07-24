@@ -1,23 +1,32 @@
-i=0;
-	function colorchange(){
 
+	function colorchange(){
+		i=Number(document.getElementById("counter").innerHTML);
+		i+=1
+		document.getElementById("counter").innerHTML=i
 		if (i%2==0){
 			document.getElementById("whole").style.background="#2F4F4F";
 			document.getElementById("aboutme").style.background="#2F4F4F";
 			document.getElementById("projects").style.background="#2F4F4F";
 			document.getElementById("skill").style.background="#2F4F4F";
 			document.getElementById("nightday").style.background="#2F4F4F";
-			document.getElementById("first").style.opacity=0.5;
+			document.getElementById("first").style.opacity=1;
+			i=1;
+			alert(i)
+			
 		}
 
-		if(i%2==1){
+		else{
 			document.getElementById("whole").style.background="cyan";
 			document.getElementById("aboutme").style.background="#6699FF";
 			document.getElementById("projects").style.background="#990099";
 			document.getElementById("skill").style.background="#66CCFF";
 			document.getElementById("nightday").style.background="lightskyblue";
-			document.getElementById("first").style.opacity=1;
+			document.getElementById("first").style.opacity=0.01;
+			i=2;
+			alert(i)
+			document.getElementById("counter").innerHTML=2;
 			
 		}
-		i +=1
+		
+		
 	}
