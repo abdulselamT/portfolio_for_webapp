@@ -140,11 +140,11 @@ img{
 		background-color: #66CCFF;
 	}
 	.python:hover{
-		background-color: #66CCFF;
+		background-color: green;
 		opacity: 0.5;
 	}
 
 	.django:hover{
-		background-color: #66CCFF;
+		background-color: green;
 		opacity: 0.5;
 	}
